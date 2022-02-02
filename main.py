@@ -41,7 +41,7 @@ while True:
         if option == 3:
             quit()
 
-        # information
+        # informing
         print('The present array is:', arr)
         print("\nSorting in progress..")
         time.sleep(5)
