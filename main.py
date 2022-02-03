@@ -52,7 +52,7 @@ while True:
         sort_algorithms = [bubbleSort, insertionSort, selectionSort,
                            mergeSort]
 
-        # counting sort and bucket sort do not sort the original array but create new sorted array
+        # counting sort and bucket sort do not sort the original array but create new sorted array (which means they need their own loop)
         sort_algorithms2 = [countingSort, bucketSort]
 
         for function in sort_algorithms:
