@@ -34,7 +34,7 @@ while True:
             arr = []
             count = int(input("Number of elements in the array? "))
 
-            for function in range(count):
+            for i in range(count):
                 elem = int(input("Enter the element: "))
                 arr.append(elem)
 
