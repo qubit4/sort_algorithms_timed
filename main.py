@@ -55,8 +55,8 @@ while True:
         # counting sort and bucket sort do not sort the original array but create new sorted array (which means they need their own loop)
         sort_algorithms2 = [countingSort, bucketSort]
 
-        for function in sort_algorithms:
-            arr_temp = list(arr)
+        for function in sort_algorithms:      
+            arr_temp = list(arr) # creating a temporary array so the original array remains unsorted for next iterations
             start = default_timer()
             function(arr_temp)
             end = default_timer()
@@ -67,7 +67,7 @@ while True:
             print("Sorting executed in {} seconds \n".format(time))
 
         for function in sort_algorithms2:
-            arr_temp = list(arr)
+            arr_temp = list(arr) # creating a temporary array so the original array remains unsorted for next iterations
             start = default_timer()
             result = function(arr_temp)
             end = default_timer()
